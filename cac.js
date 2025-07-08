@@ -337,7 +337,7 @@ const CACDecisionAlgorithm = () => {
     <div className="flex items-center justify-center gap-4 mb-2">
         <p>This tool provides evidence-based recommendations. Clinical judgment should always be applied in individual patient care.</p>
         <a 
-            href="https://github.com/dcicantab5/cac/blob/main/README.md" 
+            href="https://github.com/dcicantab5/cac" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-600 transition-colors"
