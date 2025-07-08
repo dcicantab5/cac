@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertCircle, Heart, Calculator, FileText, Users } from 'lucide-react';
+import { AlertCircle, Heart, Calculator, FileText, Users, Github } from 'lucide-react';
 
 const CACDecisionAlgorithm = () => {
   const [cacScore, setCacScore] = useState('');
@@ -343,7 +343,7 @@ const CACDecisionAlgorithm = () => {
             className="text-gray-400 hover:text-gray-600 transition-colors"
             title="View on GitHub"
         >
-            <GitHubIcon />
+            <Github className="h-5 w-5" />
         </a>
     </div>
 </div>
